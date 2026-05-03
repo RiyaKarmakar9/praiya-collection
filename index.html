@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Praiya Collection</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+/* HERO */
+.hero {
+  height: 80vh;
+  background: linear-gradient(to right, #ffe4e1, #e8f5e9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #333;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #777;
+}
+
+/* PRODUCTS */
+.section {
+  padding: 50px 30px;
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h3 {
+  padding: 10px;
+}
+
+/* FOOTER */
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <img src="logo.png" class="logo">
+  
+  <div class="nav-links">
+    <a href="#">Home</a>
+    <a href="#">Sarees</a>
+    <a href="#">Contact</a>
+  </div>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+  <div>
+    <h1>Praiya Collection</h1>
+    <p>Elegant Sarees for Every Occasion</p>
+  </div>
+</div>
+
+<!-- PRODUCTS -->
+<div class="section">
+  <h2>Trending Sarees</h2>
+
+  <div class="products">
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300">
+      <h3>Silk Saree</h3>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300">
+      <h3>Designer Saree</h3>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300">
+      <h3>Party Wear</h3>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300">
+      <h3>Wedding Collection</h3>
+    </div>
+
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <p>Praiya Collection | Raipur, Chhattisgarh</p>
+</footer>
+
+</body>
+</html>
